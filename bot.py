@@ -9,7 +9,7 @@ from mcstatus import JavaServer
 from datetime import datetime
 import pytz
 
-TOKEN = "MTM5NzM0Mzg2NjY5MjA0Njg2OA.GuBQHE.dCLczMWKWwgwTu4o0VUhr7zyHaWYNRDBE08DHM"
+TOKEN = "{REDACTED]"
 SERVER_IP = "88.211.207.236"
 PORT = 25576
 TIMEZONE = "Europe/Paris"
