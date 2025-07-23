@@ -1,0 +1,94 @@
+2025-07-23 05:33:27,699 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2025-07-23 05:33:27,700 | INFO | logging in using static token
+2025-07-23 05:33:28,883 | INFO | ✅ Slash commands synced.
+2025-07-23 05:33:29,260 | INFO | Shard ID None has connected to Gateway (Session ID: 3ca320c7c7426c0d73c8e55f62c14a26).
+2025-07-23 05:33:31,264 | INFO | ✅ Bot ready as DarkSMP - Status#2646
+2025-07-23 05:33:39,858 | INFO | /wiki used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 05:33:45,932 | INFO | Wiki entry selected: leather leggings by le_vrai_shonay (Category: armor)
+2025-07-23 07:12:43,818 | INFO | Shard ID None has successfully RESUMED session 3ca320c7c7426c0d73c8e55f62c14a26.
+2025-07-23 08:39:22,474 | INFO | Shard ID None has successfully RESUMED session 3ca320c7c7426c0d73c8e55f62c14a26.
+2025-07-23 10:48:08,335 | INFO | Shard ID None has successfully RESUMED session 3ca320c7c7426c0d73c8e55f62c14a26.
+2025-07-23 11:05:22,062 | INFO | Shard ID None has successfully RESUMED session 3ca320c7c7426c0d73c8e55f62c14a26.
+2025-07-23 11:41:24,688 | INFO | Shard ID None has successfully RESUMED session 3ca320c7c7426c0d73c8e55f62c14a26.
+2025-07-23 13:03:08,963 | INFO | Shard ID None has successfully RESUMED session 3ca320c7c7426c0d73c8e55f62c14a26.
+2025-07-23 15:03:56,952 | INFO | /wiki used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 15:04:00,933 | ERROR | Ignoring exception in view <CategorySelectView timeout=120 children=1> for item <Select placeholder='Select a category...' min_values=1 max_values=1 disabled=False options=[<SelectOption label='Tools' value='tools' description=None emoji=None default=False>, <SelectOption label='Blocks' value='blocks' description=None emoji=None default=False>, <SelectOption label='Ores' value='ores' description=None emoji=None default=False>, <SelectOption label='Armor' value='armor' description=None emoji=None default=False>, <SelectOption label='Food' value='food' description=None emoji=None default=False>, <SelectOption label='Dyes' value='dyes' description=None emoji=None default=False>, <SelectOption label='Mobs' value='mobs' description=None emoji=None default=False>, <SelectOption label='Potions' value='potions' description=None emoji=None default=False>, <SelectOption label='Utility' value='utility' description=None emoji=None default=False>, <SelectOption label='Enchantments' value='enchantments' description=None emoji=None default=False>, <SelectOption label='Recipes' value='recipes' description=None emoji=None default=False>, <SelectOption label='Stations' value='stations' description=None emoji=None default=False>, <SelectOption label='Biomes' value='biomes' description=None emoji=None default=False>]>
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.10/site-packages/discord/ui/view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/bot.py", line 129, in category_selected
+    await interaction.response.edit_message(embed=embed, view=new_view)
+  File "/home/container/.local/lib/python3.10/site-packages/discord/interactions.py", line 921, in edit_message
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.10/site-packages/discord/webhook/async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.components.0.components.0.options: Must be between 1 and 25 in length.
+2025-07-23 15:38:55,544 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2025-07-23 15:38:55,545 | INFO | logging in using static token
+2025-07-23 15:38:56,378 | INFO | ✅ Slash commands synced.
+2025-07-23 15:38:57,055 | INFO | Shard ID None has connected to Gateway (Session ID: b59f15753df21f818e6555a70cfe7a3c).
+2025-07-23 15:38:59,068 | INFO | ✅ Bot ready as DarkSMP - Status#2646
+2025-07-23 15:39:23,841 | INFO | /wiki used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 15:39:29,147 | INFO | Wiki entry selected: leather leggings by le_vrai_shonay (Category: armor)
+2025-07-23 15:46:10,523 | WARNING | PyNaCl is not installed, voice will NOT be supported
+2025-07-23 15:46:10,523 | INFO | logging in using static token
+2025-07-23 15:46:12,034 | INFO | ✅ Slash commands synced.
+2025-07-23 15:46:12,906 | INFO | Shard ID None has connected to Gateway (Session ID: 8ccdea0dff77e0f051a7054b0b6975c1).
+2025-07-23 15:46:14,910 | INFO | ✅ Bot ready as DarkSMP - Status#2646
+2025-07-23 15:46:21,131 | INFO | /wiki used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 15:46:25,878 | INFO | Wiki entry selected: leather boots by le_vrai_shonay (Category: armor)
+2025-07-23 16:57:16,426 | ERROR | Attempting a reconnect in 0.95s
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.10/site-packages/discord/client.py", line 659, in connect
+    await self.ws.poll_event()
+  File "/home/container/.local/lib/python3.10/site-packages/discord/gateway.py", line 646, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2025-07-23 16:57:17,681 | INFO | Shard ID None has successfully RESUMED session 8ccdea0dff77e0f051a7054b0b6975c1.
+2025-07-23 17:19:55,343 | INFO | Shard ID None has successfully RESUMED session 8ccdea0dff77e0f051a7054b0b6975c1.
+2025-07-23 21:11:03,780 | INFO | Shard ID None has successfully RESUMED session 8ccdea0dff77e0f051a7054b0b6975c1.
+2025-07-23 21:26:29,822 | INFO | /mode used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 21:26:40,383 | INFO | /update used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 21:26:56,111 | INFO | /wiki used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 21:27:05,831 | INFO | /hello used by le_vrai_shonay (ID: 853726560435961925)
+2025-07-23 21:27:06,687 | ERROR | Ignoring exception in view <CategorySelectView timeout=120 children=1> for item <Select placeholder='Select a category...' min_values=1 max_values=1 disabled=False options=[<SelectOption label='Tools' value='tools' description=None emoji=None default=False>, <SelectOption label='Blocks' value='blocks' description=None emoji=None default=False>, <SelectOption label='Ores' value='ores' description=None emoji=None default=False>, <SelectOption label='Armor' value='armor' description=None emoji=None default=False>, <SelectOption label='Food' value='food' description=None emoji=None default=False>, <SelectOption label='Dyes' value='dyes' description=None emoji=None default=False>, <SelectOption label='Mobs' value='mobs' description=None emoji=None default=False>, <SelectOption label='Potions' value='potions' description=None emoji=None default=False>, <SelectOption label='Utility' value='utility' description=None emoji=None default=False>, <SelectOption label='Enchantments' value='enchantments' description=None emoji=None default=False>, <SelectOption label='Recipes' value='recipes' description=None emoji=None default=False>, <SelectOption label='Stations' value='stations' description=None emoji=None default=False>, <SelectOption label='Biomes' value='biomes' description=None emoji=None default=False>]>
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.10/site-packages/discord/ui/view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/bot.py", line 127, in category_selected
+    await interaction.response.edit_message(embed=embed, view=new_view)
+  File "/home/container/.local/lib/python3.10/site-packages/discord/interactions.py", line 921, in edit_message
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.10/site-packages/discord/webhook/async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.components.0.components.0.options: Must be between 1 and 25 in length.
+2025-07-23 21:27:43,656 | ERROR | Ignoring exception in view <CategorySelectView timeout=120 children=1> for item <Select placeholder='Select a category...' min_values=1 max_values=1 disabled=False options=[<SelectOption label='Tools' value='tools' description=None emoji=None default=False>, <SelectOption label='Blocks' value='blocks' description=None emoji=None default=False>, <SelectOption label='Ores' value='ores' description=None emoji=None default=False>, <SelectOption label='Armor' value='armor' description=None emoji=None default=False>, <SelectOption label='Food' value='food' description=None emoji=None default=False>, <SelectOption label='Dyes' value='dyes' description=None emoji=None default=False>, <SelectOption label='Mobs' value='mobs' description=None emoji=None default=False>, <SelectOption label='Potions' value='potions' description=None emoji=None default=False>, <SelectOption label='Utility' value='utility' description=None emoji=None default=False>, <SelectOption label='Enchantments' value='enchantments' description=None emoji=None default=False>, <SelectOption label='Recipes' value='recipes' description=None emoji=None default=False>, <SelectOption label='Stations' value='stations' description=None emoji=None default=False>, <SelectOption label='Biomes' value='biomes' description=None emoji=None default=False>]>
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.10/site-packages/discord/ui/view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/bot.py", line 112, in category_selected
+    data = json.load(f)
+  File "/usr/local/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/local/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Unterminated string starting at: line 131 column 18 (char 4067)
+2025-07-23 21:27:49,644 | ERROR | Ignoring exception in view <CategorySelectView timeout=120 children=1> for item <Select placeholder='Select a category...' min_values=1 max_values=1 disabled=False options=[<SelectOption label='Tools' value='tools' description=None emoji=None default=False>, <SelectOption label='Blocks' value='blocks' description=None emoji=None default=False>, <SelectOption label='Ores' value='ores' description=None emoji=None default=False>, <SelectOption label='Armor' value='armor' description=None emoji=None default=False>, <SelectOption label='Food' value='food' description=None emoji=None default=False>, <SelectOption label='Dyes' value='dyes' description=None emoji=None default=False>, <SelectOption label='Mobs' value='mobs' description=None emoji=None default=False>, <SelectOption label='Potions' value='potions' description=None emoji=None default=False>, <SelectOption label='Utility' value='utility' description=None emoji=None default=False>, <SelectOption label='Enchantments' value='enchantments' description=None emoji=None default=False>, <SelectOption label='Recipes' value='recipes' description=None emoji=None default=False>, <SelectOption label='Stations' value='stations' description=None emoji=None default=False>, <SelectOption label='Biomes' value='biomes' description=None emoji=None default=False>]>
+Traceback (most recent call last):
+  File "/home/container/.local/lib/python3.10/site-packages/discord/ui/view.py", line 427, in _scheduled_task
+    await item.callback(interaction)
+  File "/home/container/bot.py", line 127, in category_selected
+    await interaction.response.edit_message(embed=embed, view=new_view)
+  File "/home/container/.local/lib/python3.10/site-packages/discord/interactions.py", line 921, in edit_message
+    await adapter.create_interaction_response(
+  File "/home/container/.local/lib/python3.10/site-packages/discord/webhook/async_.py", line 221, in request
+    raise HTTPException(response, data)
+discord.errors.HTTPException: 400 Bad Request (error code: 50035): Invalid Form Body
+In data.components.0.components.0.options: Must be between 1 and 25 in length.
+2025-07-23 21:27:57,704 | INFO | Wiki entry selected: coal ore by le_vrai_shonay (Category: ores)

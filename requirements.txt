@@ -1,0 +1,4 @@
+discord.py==2.3.2
+mcstatus>=5.2.0
+pytz==2023.3
+requests
